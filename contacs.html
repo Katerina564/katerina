@@ -1,0 +1,122 @@
+ <!DOCTYPE html>
+  <html>
+    <head>
+      <title>Інтернет-магазин Lego shop</title>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Import Slick-->
+      <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo right">
+            <img src="img/Lego-logo.gif">
+          </a>
+          <ul class="left hide-on-med-and-down">
+            <li class="active"><a href="sass.html">Головна</a></li>
+            <li><a href="badges.html">Каталог товарів</a></li>
+            <li><a href="collapsible.html">Контакти</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="contacts-row">
+      <div class="contacts-img">
+        <img src="img/contact.png">
+      </div>
+      <div class="contacts-info">
+        <h3 class="contacts-title">Контакти</h3>
+        <h5>Зателефонуйте або напишіть:</h5>
+        <div class="contacts-phone">
+          <i class="material-icons">local_phone</i>
+          <span>Телефон:</span>
+          <a href="tel:+38-050-734-72" rel="nofollow">38-050-734-72</a>
+      </div>
+      <div class="contacts-phone">
+        <i class="Material-icons">phone_iphone</i>
+        <span>Телефон:</span>
+        <a href="tel:+38-050-734-71" rel="nofollow">38-050-734-71</a>
+      </div>
+      <div class="contacts-phone">
+        <i class="material-icons">email</i>
+        <span>Email:</span>
+        <a href="mailto:legoshop@gmail.com" rel="nofollow">legoshop@gmail.com</a>
+      </div>
+      <hr>
+      <h5>Адреса магазину:</h5>
+      <div class="contacts-phone">
+        <i class="material-icons">location_on</i>
+        <span>Адреса:</span>
+        <a href="https://g.page/trk_prospekt?share">Гната Хоткевича, 1В</a>
+      </div>
+      <h5>Графік роботи:</h5>
+      <div class="contacts-phone">
+        <p>Графік роботи(Пн-Пт) с 10:00 до 20:00</p>
+      </div>
+      <div class="contacts-map">
+        <div id="map_canvas"></div>
+      </div>
+    </div>
+
+      <div class="contacts-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d549.6714400339806!2d30.635293280078663!3d50.454928732545774!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c55335c91015%3A0xe93079c4ca849368!2z0J_RgNC-0YHQv9C10LrRgg!5e0!3m2!1sru!2sua!4v1613665819671!5m2!1sru!2sua" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+      </div>
+      <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Інтернет магазин Lego Shop</h5>
+              <p class="grey-text text-lighten-4">Be the first to hear about brand new sets, exclusive products, promotions and events taking place in LEGO stores</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Сторінки</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Головна</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Каталог товарів</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Контакти</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Про компанію</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2020 Copyright Text
+          <a class="grey-text text-lighten-4 right" href="#!">Доставка та оплата</a>
+          </div>
+        </div>
+      </footer>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	  <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    
+	  <script type="text/javascript" src="js/materialize.min.js"></script>
+
+      <script type="text/javascript">
+	    $(document).ready(function(){
+	      $('.header-slide').slick({
+	        dots: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000
+	      });
+	    });
+	  </script>
+
+    </body>
+  </html>
